@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta - Lenguaje Favorito</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <h1>Pregunta</h1>
+  <form id="formEncuesta">
+    <p>¿Cuál es tu lenguaje de programación favorito?</p>
+    
+    <label>
+      <input type="radio" name="lenguaje" value="JavaScript" required>
+      JavaScript
+    </label><br>
+    
+    <label>
+      <input type="radio" name="lenguaje" value="Python">
+      Python
+    </label><br>
+    
+    <label>
+      <input type="radio" name="lenguaje" value="C++">
+      C++
+    </label><br>
+    
+    <label>
+      <input type="radio" name="lenguaje" value="Otro">
+      Otro
+    </label><br><br>
+    
+    <button type="submit">Votar</button>
+  </form>
+
+  <h2>Resultados</h2>
+<table border="1" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Opción</th>
+      <th>Votos</th>
+      <th>Porcentaje</th>
+    </tr>
+  </thead>
+  <tbody id="tablaResultados"></tbody>
+</table>
+    <table>
+        <tbody>
+<button id="resetBtn">Reiniciar Resultados</button>
+
+      <!--resultados de la encuesta-->
+    </tbody>
+  </table>
+<h3> Hecho por Samuel Rios Calderón </h3>
+  <script src="script.js"></script>
+</body>
+</html>

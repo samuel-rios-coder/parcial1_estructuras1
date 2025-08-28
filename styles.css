@@ -1,0 +1,84 @@
+/*Estilos cuerpo*/
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 20px;
+  padding: 0;
+  text-align: center; 
+}
+
+h1, h2 {
+  color: #222;
+}
+
+/* Formulario */
+form {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  text-align: left; 
+}
+
+form p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+/* Botones */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Tabla de resultados  */
+table {
+  margin: 20px auto; 
+  width: 80%;
+  max-width: 500px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #007bff;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/*Boton de reinicio*/
+#resetBtn {
+  display: block;
+  margin: 15px auto;
+  background: #dc3545;
+}
+
+#resetBtn:hover {
+  background: #a71d2a;
+}
