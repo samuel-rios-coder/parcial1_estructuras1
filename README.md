@@ -1,3 +1,3 @@
 # parcial1_estructuras1
 
-Hecho por samuel rios calderón
+Hecho por samuel rios calderón 
